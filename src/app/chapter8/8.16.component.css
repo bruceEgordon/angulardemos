@@ -1,0 +1,28 @@
+:host{
+    background-color: lightgrey;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    font-family: sans-serif;
+}
+h3{
+    margin: 0px;
+    padding: 5px;
+}
+#submit{
+    margin: 0 auto;
+    margin-top: 5px;
+    display: block;
+}
+input.ng-invalid{
+    border: 1px solid red;
+}
+input.ng-valid{
+    border: 1px solid blue;
+}
+input.ng-pristine{
+    background-color: lightgray;
+}
+input.ng-touched{
+    background-color: lightyellow;
+}

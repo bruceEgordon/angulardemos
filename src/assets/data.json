@@ -1,0 +1,27 @@
+[
+    {
+        "fname": "Homer",
+        "lname": "Simpson",
+        "email": "homer@acme.com"
+    },
+    {
+        "fname": "Bart",
+        "lname": "Simpson",
+        "email": "bart@acme.com"
+    },
+    {
+        "fname": "Daffy",
+        "lname": "Duck",
+        "email": "daffy@acme.com"
+    },
+    {
+        "fname": "Bugs",
+        "lname": "Bunny",
+        "email": "bugs@acme.com"
+    },
+    {
+        "fname": "George",
+        "lname": "Jetson",
+        "email": "george@acme.com"
+    }
+]

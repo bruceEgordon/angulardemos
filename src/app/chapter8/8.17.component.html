@@ -1,0 +1,12 @@
+<h3>Basic Form</h3>
+<form #f="ngForm" (ngSubmit)="onSubmit(f);">
+    Name:<br>
+    <input type="text" [(ngModel)]="registration.name" name="xname" required #name="ngModel" >
+    <span *ngIf="name.valid">Valid</span><br>
+    Email:<br>
+    <input type="email" [(ngModel)]="registration.email" name="xemail" required #email="ngModel" >
+    <span *ngIf="email.valid">Valid</span><br>
+    <input type="submit" id="submit" value="Submit" [disabled]="!f.valid || f.submitted">
+    <p *ngIf="f.valid && !f.submitted">Form is valid, please submit!</p>
+    <p *ngIf="f.submitted">Registration has been submitted!</p>
+</form>
