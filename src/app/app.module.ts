@@ -2,17 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule } from '@angular/forms';
 
-import { LoginComponent } from './chapter4/4.4.component';
+import { Chapter12 } from './chapter12/12.21.component';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
-    LoginComponent
+    Chapter12
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
   providers: [],
-  bootstrap: [LoginComponent]
+  bootstrap: [Chapter12]
 })
 export class AppModule { }

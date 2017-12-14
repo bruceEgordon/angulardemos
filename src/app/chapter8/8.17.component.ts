@@ -4,7 +4,8 @@ import { Registration } from './registration.class';
 @Component({
     selector: "chapter8",
     templateUrl: "8.17.component.html",
-    styleUrls: ["8.16.component.css"]
+    styleUrls: ["8.16.component.css"],
+    providers: [Registration]
 })
 export class Chapter8 {
     //private tst: Test;

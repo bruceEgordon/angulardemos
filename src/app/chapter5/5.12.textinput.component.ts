@@ -8,7 +8,7 @@ import { Component, Output, EventEmitter, Input } from "@angular/core";
     `
 })
 export class TextInputComponent {
-    text: string = "";
+    text: string = "Hello World";
     @Input() label: string;
     @Output() valueChange = new EventEmitter();
     onChange() { this.valueChange.emit(this.text);}

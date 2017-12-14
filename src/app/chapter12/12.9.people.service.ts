@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Http } from "@angular/http";
 import { Observable } from "rxjs/rx";
+import "rxjs/add/operator/catch";  //had to add this to the 5.x version of Angular to avoid browser error
 
 @Injectable()
 export class PeopleService {
